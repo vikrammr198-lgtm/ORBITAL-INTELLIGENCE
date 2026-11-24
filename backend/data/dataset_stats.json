@@ -1,0 +1,299 @@
+{
+  "raw_total_cdms": 162634,
+  "raw_unique_events": 13154,
+  "raw_high_risk_events": 365,
+  "early_cutoff_days": 2,
+  "early_total_cdms": 111939,
+  "early_unique_events": 11942,
+  "early_high_risk_events": 323,
+  "early_low_risk_events": 11619,
+  "early_high_risk_pct": 2.7,
+  "unique_missions": 19,
+  "mean_time_to_tca_days": 2.847,
+  "median_miss_distance_m": 14713.5,
+  "object_type_distribution": [
+    {
+      "type": "DEBRIS",
+      "total": 6546,
+      "high_risk": 171
+    },
+    {
+      "type": "UNKNOWN",
+      "total": 3866,
+      "high_risk": 132
+    },
+    {
+      "type": "PAYLOAD",
+      "total": 1359,
+      "high_risk": 9
+    },
+    {
+      "type": "ROCKET BODY",
+      "total": 157,
+      "high_risk": 11
+    },
+    {
+      "type": "TBA",
+      "total": 14,
+      "high_risk": 0
+    }
+  ],
+  "final_risk_histogram": [
+    {
+      "bin": "-30.0 to -28.6",
+      "min": -30.0,
+      "max": -28.55,
+      "count": 7579,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-28.6 to -27.1",
+      "min": -28.55,
+      "max": -27.1,
+      "count": 55,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-27.1 to -25.6",
+      "min": -27.1,
+      "max": -25.65,
+      "count": 57,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-25.6 to -24.2",
+      "min": -25.65,
+      "max": -24.2,
+      "count": 60,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-24.2 to -22.8",
+      "min": -24.2,
+      "max": -22.75,
+      "count": 77,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-22.8 to -21.3",
+      "min": -22.75,
+      "max": -21.3,
+      "count": 58,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-21.3 to -19.9",
+      "min": -21.3,
+      "max": -19.85,
+      "count": 81,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-19.9 to -18.4",
+      "min": -19.85,
+      "max": -18.4,
+      "count": 88,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-18.4 to -17.0",
+      "min": -18.4,
+      "max": -16.950000000000003,
+      "count": 102,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-17.0 to -15.5",
+      "min": -16.950000000000003,
+      "max": -15.5,
+      "count": 131,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-15.5 to -14.1",
+      "min": -15.5,
+      "max": -14.05,
+      "count": 438,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-14.1 to -12.6",
+      "min": -14.05,
+      "max": -12.600000000000001,
+      "count": 422,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-12.6 to -11.2",
+      "min": -12.600000000000001,
+      "max": -11.150000000000002,
+      "count": 276,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-11.2 to -9.7",
+      "min": -11.150000000000002,
+      "max": -9.7,
+      "count": 358,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-9.7 to -8.2",
+      "min": -9.7,
+      "max": -8.25,
+      "count": 533,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-8.2 to -6.8",
+      "min": -8.25,
+      "max": -6.800000000000001,
+      "count": 857,
+      "is_high_risk": false
+    },
+    {
+      "bin": "-6.8 to -5.4",
+      "min": -6.800000000000001,
+      "max": -5.350000000000001,
+      "count": 645,
+      "is_high_risk": true
+    },
+    {
+      "bin": "-5.4 to -3.9",
+      "min": -5.350000000000001,
+      "max": -3.900000000000002,
+      "count": 118,
+      "is_high_risk": true
+    },
+    {
+      "bin": "-3.9 to -2.4",
+      "min": -3.900000000000002,
+      "max": -2.4499999999999993,
+      "count": 6,
+      "is_high_risk": true
+    },
+    {
+      "bin": "-2.4 to -1.0",
+      "min": -2.4499999999999993,
+      "max": -1.0,
+      "count": 1,
+      "is_high_risk": true
+    }
+  ],
+  "missions": [
+    {
+      "mission_id": 1,
+      "total_events": 1770,
+      "high_risk_events": 88,
+      "avg_miss_km": 19460.781920903955
+    },
+    {
+      "mission_id": 2,
+      "total_events": 1414,
+      "high_risk_events": 50,
+      "avg_miss_km": 16902.18387553041
+    },
+    {
+      "mission_id": 3,
+      "total_events": 458,
+      "high_risk_events": 28,
+      "avg_miss_km": 5853.617903930131
+    },
+    {
+      "mission_id": 4,
+      "total_events": 256,
+      "high_risk_events": 10,
+      "avg_miss_km": 5391.46875
+    },
+    {
+      "mission_id": 5,
+      "total_events": 2108,
+      "high_risk_events": 29,
+      "avg_miss_km": 13756.570683111955
+    },
+    {
+      "mission_id": 6,
+      "total_events": 1041,
+      "high_risk_events": 28,
+      "avg_miss_km": 33543.06532180595
+    },
+    {
+      "mission_id": 7,
+      "total_events": 1652,
+      "high_risk_events": 10,
+      "avg_miss_km": 26117.794188861986
+    },
+    {
+      "mission_id": 9,
+      "total_events": 401,
+      "high_risk_events": 8,
+      "avg_miss_km": 22923.758104738154
+    },
+    {
+      "mission_id": 10,
+      "total_events": 118,
+      "high_risk_events": 7,
+      "avg_miss_km": 31087.57627118644
+    },
+    {
+      "mission_id": 13,
+      "total_events": 6,
+      "high_risk_events": 2,
+      "avg_miss_km": 557.0
+    },
+    {
+      "mission_id": 14,
+      "total_events": 10,
+      "high_risk_events": 3,
+      "avg_miss_km": 559.5
+    },
+    {
+      "mission_id": 15,
+      "total_events": 1656,
+      "high_risk_events": 14,
+      "avg_miss_km": 20948.09299516908
+    },
+    {
+      "mission_id": 16,
+      "total_events": 109,
+      "high_risk_events": 9,
+      "avg_miss_km": 760.256880733945
+    },
+    {
+      "mission_id": 18,
+      "total_events": 117,
+      "high_risk_events": 20,
+      "avg_miss_km": 5346.316239316239
+    },
+    {
+      "mission_id": 19,
+      "total_events": 646,
+      "high_risk_events": 5,
+      "avg_miss_km": 13250.402476780186
+    },
+    {
+      "mission_id": 20,
+      "total_events": 67,
+      "high_risk_events": 6,
+      "avg_miss_km": 723.4626865671642
+    },
+    {
+      "mission_id": 22,
+      "total_events": 41,
+      "high_risk_events": 3,
+      "avg_miss_km": 793.4634146341464
+    },
+    {
+      "mission_id": 23,
+      "total_events": 36,
+      "high_risk_events": 1,
+      "avg_miss_km": 762.2222222222222
+    },
+    {
+      "mission_id": 24,
+      "total_events": 36,
+      "high_risk_events": 2,
+      "avg_miss_km": 719.2777777777778
+    }
+  ]
+}
